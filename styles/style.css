@@ -282,7 +282,7 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
 #img1, #img2, #img3, #img4, #img5, #img6
 {
   width: 320px;
-  height: 180px;
+  max-height: 180px;
   border-radius: 25px 25px 0px 0px;
 }
 .ajustement-bloc
@@ -292,7 +292,7 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
   margin-top: 15px;
   margin-bottom: 30px;
 }
-.titre-footer
+a.titre-footer
 {
     font-family: 'Raleway', sans-serif; font-weight: 600;
     font-size: 15px;
@@ -346,10 +346,6 @@ nav li
 	margin-top: 30px;
 	margin-bottom: 20px;
 	text-align: left;
-}
-#filtre-2, #filtre-3, #filtre-4, #filtre-5
-{
-	margin-right: 35px;
 }
 #logement
 {
@@ -422,7 +418,7 @@ img.hotel
 #second-bloc
 {
   max-width: 350px;
-  height: 640px;
+  height: 620px;
   background-color: #F2F2F2;
   border-radius: 20px;
   display: flex;
@@ -442,7 +438,7 @@ a.aside-bloc p
 {
   font-size: 11px;
 }
-#populaires
+h2#populaires
 {
   font-size: 19px;
   font-family: 'Raleway', sans-serif; font-weight: 600;
@@ -485,7 +481,7 @@ a.activites-2, a.activites-3, a.activites-5, a.activites-6
 #img1, #img4
 {
   max-width: 210px;
-  height: 280px;
+  max-height: 280px;
   border-radius: 25px 25px 0px 0px;
 }
 a.activites-1, a.activites-4
@@ -495,8 +491,8 @@ a.activites-1, a.activites-4
 }
 .ajustement-bloc
 {
-  width: 220px;
-  height: 350px;
+  max-width: 200px;
+  max-height: 320px;
 }
 footer ul
 {
@@ -507,7 +503,7 @@ footer ul
     flex-wrap: nowrap;
     align-items: flex-start;
 }
-.titre-footer
+a.titre-footer
 {
     font-family: 'Raleway', sans-serif; font-weight: 600;
     font-size: 13px;
@@ -542,15 +538,11 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
 }
 
 }
-@media only screen and (min-width: 1024px) and (max-width: 1860px)
+@media only screen and (min-width: 600px) and (max-width: 8000px)
 {
-#titre-principal, #mrs
+#loupe
 {
-	margin-left: 15px;
-}
-nav li
-{
-	margin-right: 35px;
+	display: none;
 }
 #premier-bloc
 {
@@ -574,6 +566,14 @@ nav li
 	border-radius: 20px;
 	padding-top: 20px;
 }
+#titre-principal, #mrs
+{
+	margin-left: 15px;
+}
+nav li
+{
+	margin-right: 35px;
+}
 nav a:hover
 {
     color: #0065FC;
@@ -596,13 +596,9 @@ nav a:hover
 	text-align: left;
 	margin-left: 17px;
 }
-#loupe
-{
-  display: none;
-}
 #filtre-2, #filtre-3, #filtre-4, #filtre-5
 {
-	margin-right: 45px;
+	margin-right: 35px;
 }
 #logement
 {
