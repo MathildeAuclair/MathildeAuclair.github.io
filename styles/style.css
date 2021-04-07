@@ -1,4 +1,4 @@
-@font-face
+@font-face /*Général de la maquette*/
 {
     font-family: 'Raleway', sans-serif;
     font-style: normal; 
@@ -17,7 +17,7 @@ body
 }
 @media only screen and (min-width: 300px) and (max-width: 600px)
 {
- #bloc-page
+ #bloc-page /* CSS Smartphone */
 {
 	min-width: 300px;
     max-width: 768px;
@@ -27,7 +27,7 @@ header
   width: 350px;
   height: 260px;
 }
-img.imageflottante
+img.imageflottante /* Image Logo */
 {
   margin-left: 5px;
 }
@@ -90,7 +90,7 @@ nav a:hover
   margin-left: 10px;
   margin-top: 85px;
 }
-#ville
+#ville /*Paragraphe header*/
 {
   font-size: 15px;
   margin-left: 10px;
@@ -131,7 +131,7 @@ nav a:hover
 	margin-top: 20px;
 	margin-left: 10px;
 }
-#titre
+#titre /* Titre filtre*/
 {
 	height: 15px;
 	width: 300px;
@@ -285,7 +285,7 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
   max-height: 180px;
   border-radius: 25px 25px 0px 0px;
 }
-.ajustement-bloc
+.ajustement-bloc /* Bloc contenant l'image 2, 4 & 5, 6 */
 {
   width: 370px;
   height: 510px;
@@ -306,7 +306,7 @@ footer li
 }
 @media only screen and (min-width: 600px) and (max-width: 1024px)
 {
-#bloc-page
+#bloc-page /* CSS Tablette */
 {
 	min-width: 600px;
     max-width: 1100px;
@@ -503,7 +503,7 @@ a.activites-1, a.activites-4
   max-width: 210px;
   max-height: 270px;
 }
-.ajustement-bloc
+.ajustement-bloc /* Bloc contenant l'image 2, 4 & 5, 6 */
 {
   max-width: 215px;
   max-height: 320px;
@@ -552,7 +552,7 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
 }
 
 }
-@media only screen and (min-width: 1024px) and (max-width: 9000px)
+@media only screen and (min-width: 1024px) and (max-width: 9000px) /* Réglages d'ajustements Desktop et compatibilités Smartphone et Tablette*/
 {
 #loupe
 {
@@ -594,7 +594,7 @@ nav a:hover
     border-top: 1.2px solid #0065FC;
     padding-top: 2.2em;
 }
-.ajustement-bloc
+.ajustement-bloc /* Bloc contenant l'image 2, 4 & 5, 6 */
 {
 	width: 320px;
 	height: 500px;
@@ -684,8 +684,8 @@ a.activites-3
 }
 
 }
-/*Desktop*/
-#menu
+
+#menu /* CSS Desktop */
 {
   float: right;
   justify-content: flex-end;
@@ -751,7 +751,7 @@ header p
 	text-align: center;
 	font-size: 22px;
 }
-#localisation
+#localisation /* Icone localisation */
 {
 	margin-top: 10px;
 }
@@ -883,7 +883,7 @@ section h3, strong
 	text-align: left;
 	font-family: 'Raleway', sans-serif; font-weight: 600;
 }
-img.hotel, #img2, #img4, #img6, img.aside-hotel
+img.hotel, #img2, #img4, #img6, img.aside-hotel /* Réglages du rendu visuel des images */
 {
 	min-width: 0;
 	min-height: 0;
