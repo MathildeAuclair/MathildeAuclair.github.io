@@ -288,14 +288,14 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
 .ajustement-bloc
 {
   width: 370px;
-  height: 490px;
+  height: 510px;
   margin-top: 15px;
   margin-bottom: 30px;
 }
 a.titre-footer
 {
     font-family: 'Raleway', sans-serif; font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
 }
 footer li
 {
@@ -346,6 +346,10 @@ nav li
 	margin-top: 30px;
 	margin-bottom: 20px;
 	text-align: left;
+}
+#filtre-2, #filtre-3, #filtre-4, #filtre-5
+{
+	margin-right: 25px;
 }
 #logement
 {
@@ -418,11 +422,15 @@ img.hotel
 #second-bloc
 {
   max-width: 350px;
-  height: 620px;
+  height: 640px;
   background-color: #F2F2F2;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+}
+#aside
+{
+  margin-top: 11px;
 }
 img.aside-hotel
 {
@@ -461,7 +469,7 @@ i#ligne
 #troisieme-bloc h2
 {
   font-size: 18px;
-  margin-left: 24px;
+  margin-left: 34px;
 }
 #troisieme-bloc p 
 {
@@ -473,15 +481,21 @@ a.activites-2, a.activites-3, a.activites-5, a.activites-6
 	max-width: 190px;
 	max-height: 97px;
 }
-#img2, #img3, #img5, #img6
+#img2, #img5, #img6
 {
 	max-width: 190px;
-	max-height: 102px;
+	max-height: 112px;
+}
+#img3
+{
+	width: 190px;
+	height: 112px;
+	border-radius: 25px 25px 0px 0px;
 }
 #img1, #img4
 {
   max-width: 210px;
-  max-height: 280px;
+  height: 285px;
   border-radius: 25px 25px 0px 0px;
 }
 a.activites-1, a.activites-4
@@ -491,7 +505,7 @@ a.activites-1, a.activites-4
 }
 .ajustement-bloc
 {
-  max-width: 200px;
+  max-width: 215px;
   max-height: 320px;
 }
 footer ul
@@ -538,7 +552,7 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
 }
 
 }
-@media only screen and (min-width: 600px) and (max-width: 8000px)
+@media only screen and (min-width: 1024px) and (max-width: 9000px)
 {
 #loupe
 {
@@ -653,6 +667,16 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
 	height: 440px;
 	border-radius: 25px 25px 0px 0px;
 }
+#img3
+{
+	width: 320px;
+	height: 150px;
+	border-radius: 25px 25px 0px 0px;
+}
+a.activites-3
+{
+	max-height: 150px;
+}
 .titre-footer
 {
     font-family: 'Raleway', sans-serif; font-weight: 600;
@@ -757,10 +781,11 @@ input
 	background-color: #0065FC;
 	border: 1px rgb(254,254,254) solid;
 	border-radius: 0px 20px 20px 0px;
-	height: 48px;
+	height: 49px;
 	width: 140px;
 	font-family: 'Raleway', sans-serif; font-weight: 600;
 	font-size: 18px;
+	margin-left: -10px;
 }
 ::placeholder
 {
@@ -799,6 +824,7 @@ i#money, i#child, i#heart, i#dog
 	margin-top: 10px;
 	font-family: 'Raleway', sans-serif; font-weight: 600;
 	margin-right: 30px;
+	margin-left: 0px;
 }
 #filtre-2, #filtre-3, #filtre-4, #filtre-5
 {
@@ -856,6 +882,13 @@ section h3, strong
 	margin-top: 40px;
 	text-align: left;
 	font-family: 'Raleway', sans-serif; font-weight: 600;
+}
+img.hotel, #img2, #img4, #img6, img.aside-hotel
+{
+	min-width: 0;
+	min-height: 0;
+	overflow: hidden;
+	object-fit: cover;
 }
 .hotel
 {
@@ -954,26 +987,24 @@ a.activites-1, a.activites-2, a.activites-3, a.activites-4, a.activites-5, a.act
 	box-shadow: 2px 2px 2px #F2F2F2;
 	display: inline-block;
 }
-a.activites-2, a.activites-5, a.activites-6
+a.activites-5, a.activites-6
 {
-	width: 320px;
-	height: 185px;
+	height: 180px;
 }
-#img2, #img5, #img6
+#img5, #img6
 {
 	width: 320px;
-	height: 185px;
-	border-radius: 25px 25px 0px 0px; 
+	height: 180px;
+	border-radius: 25px 25px 0px 0px;
 }
-a.activites-3
+a.activites-2
 {
-	width: 320px;
-	height: 175px;
+	height: 210px;
 }
-#img3
+#img2
 {
 	width: 320px;
-	height: 175px;
+	height: 210px;
 	border-radius: 25px 25px 0px 0px;
 }
 footer
